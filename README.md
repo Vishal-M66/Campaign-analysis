@@ -1,94 +1,52 @@
-# Campaign-analysis
-An intelligent marketing analytics platform that helps businesses analyze campaign performance, discover best send times, compare AI vs Manual campaigns, create user personas, and optimize engagement.
+# 📧 Marketing Campaign Performance Analysis
 
-# Project Overview
-This project is designed to automate campaign analytics using data science and machine learning techniques. It allows users to upload campaign datasets (CSV/Excel) and generates insights such as:
+Analyze 50,000 campaign records to compare AI vs Manual campaigns, detect best send times, timezone behavior, and user personas.
 
-✅ Best sending times by timezone  
-✅ AI vs Manual campaign comparison  
-✅ Open / Click / Delivery rate analytics  
-✅ User persona segmentation  
-✅ Dashboard reports  
-✅ Actionable recommendations  
+---
 
-# Features
+## 🚀 Features
 
-# 📂 Data Upload
-- Upload campaign CSV files
-- Supports structured marketing datasets
+- AI vs Manual Campaign Comparison
+- Open / Click / Conversion Rate Analysis
+- Best Send Hour Detection
+- Timezone Engagement Analysis
+- User Persona Segmentation
+- Data Visualizations
+- Business Recommendations
 
-# 📊 Analytics Dashboard
-- Total campaigns analyzed
-- Open rates
-- Click-through rates
-- Delivery rates
-- Conversion insights
+---
 
-#🌍 Timezone Optimization
-Find best sending hours based on:
+## 📊 Findings
 
-- EST
-- IST
-- GMT
-- AEDT
-- Custom user timezones
+- AI Open Rate: 27.70%
+- Manual Open Rate: 24.09%
+- Best Send Time: 8–11 AM, 6–9 PM
+- Top Timezone: EST
 
-# AI vs Manual Comparison
-Measure performance of:
+---
 
-- AI-generated campaigns
-- Manually created campaigns
+## 🛠 Tech Stack
 
-# User Persona Generator
-Segment users into personas like:
-
-- Morning Professionals
-- Evening Shoppers
-- Mobile Users
-- Low Engagement Users
-
-### 📈 Reports
-- Downloadable PDF reports
-- CSV summary exports
-- 
-## 🛠️ Tech Stack
-
-### Frontend
-- HTML5
-- CSS3
-
-### Backend
 - Python
-- Flask
-
-### Data Analysis
 - Pandas
-- NumPy
-- Scikit-learn
-
-### Visualization
-- Plotly
 - Matplotlib
+- Seaborn
+- Google Colab
 
-### Database
-- SQLite / MySQL
+---
 
-📊 Sample Insights Generated
--Best send time in EST: 8 PM
--Best send time in IST: 11 AM
--AI campaigns outperform manual by 15%
--Mobile users show highest open rates
-
-## 📁 Project Structure
+## ▶️ Run Project
 
 ```bash
-campaign_optimizer/
-│── app.py
-│── requirements.txt
-│── uploads/
-│── static/
-│── templates/
-│   ├── index.html
-│   └── dashboard.html
-│── reports/
-│── models/
+pip install pandas matplotlib seaborn
+python campaign_analysis.py
+
+marketing-campaign-analysis/
+│── campaign_analysis.ipynb
+│── campaign_analysis.py
+│── marketing_campaign_dataset_50k.csv
+│── outputs/
+│   ├── campaign_type_chart.png
+│   ├── timezone_chart.png
+│   ├── send_time_chart.png
+│── README.md
