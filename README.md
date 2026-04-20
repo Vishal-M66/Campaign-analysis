@@ -74,10 +74,10 @@ Segment users into personas like:
 - SQLite / MySQL
 
 📊 Sample Insights Generated
-Best send time in EST: 8 PM
-Best send time in IST: 11 AM
-AI campaigns outperform manual by 15%
-Mobile users show highest open rates
+-Best send time in EST: 8 PM
+-Best send time in IST: 11 AM
+-AI campaigns outperform manual by 15%
+-Mobile users show highest open rates
 
 ## 📁 Project Structure
 
